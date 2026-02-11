@@ -1,0 +1,349 @@
+Nav Links: Inicio, Noticias, Programas, TV, Contacto
+
+En inicio: Va el logo arriba centrado , los nav links abajo con iconos chulos no emojis whatsapp, luego debajo de los nav links, iria la emision que esta habiendo
+ahora de radio marca baleares, con un boton play pause, bajar volumen, y el logo alado o algo asi chulo, ya que cada parrilla o programas, que esta en C:\Users\xena\Desktop\SYNTALYS\syntalys-clientes\RadioMarca\logos\programas y sera para anunciar tambien las siguientes programas o noseque, y poner el logo a la izquierda, y el de radio marca baleares a la derecha, o algo asi guapo coño nose tio necesito que tambien entiendas lo que digo y que tu tambien sabes hacer cosas y sabes pensar de como se hace bien estas webs etc que salga tiene su logo y estan en , luego debajo iria un bentos con a la izquierda un bloque
+512x512, a la derecha uno alargado de 800x500 o algo asi horizontal chulo, y debajo de ese horizontal, otros 2 pequeños de 256x256 o algo asi entiendes? y seran las noticias
+destacadas, con imagen de fondo, overlay oscuro negro para dejar ver al texto blanco, el titulo sera cuadrado rojo y texto blanco dentro, luego debajo de eso, un banner que
+haras tu con codigo que tendra en la esquina del cuadrado una franja roja y a la otra esquina inversa una azul, y en medio el logo radio marca tambien el horizontal
+y luego debajo de ese banner, iria el resto de noticias, de mas reciente a la ultima, y esas serian todas 256x256 digamos y igual todo perfecto coño
+a los laterales de todo tanto izquierda como derecha va un bloque vertical con espacio para anuncios, que subira el publicista en el panel admin ok? y las noticias
+tambien las subiran los copywriters desde el panel admin, y debe haber roles: admin o superadmin, copywritters, publicistas, y creo que ya estaria, ah y en el panel 
+admin donde escriben las noticias y eso, deben poder subir las imegenes y les indicaremos antes de subirlas que tienen que ser de tales px por px para que encaje bien
+la imagen en ese bento hueco, si eso hacemos una representacion de la web en el panel admin de los copywritters asi que puedan seleccionar como en una maqueta de la web
+seleccionar ese bento, y cuando entran dentro, ahi ya suben la imagen, le indicamos px por px de ese bento, y luego ya el escribe, links, mas fotos o mas videos, marcar
+como favorito haria que ese favorito se coloque en el bento que te decia que es 512x512 pues ese quieren que sea el que si marcan como favorito , saldra ahi esa noticia
+
+
+En noticias: Aqui iria todas las noticias, y las destacadas etc etc
+
+
+En programas: Aqui vendrian los horarios y todo eso de los programas parrillas o nose como se llame eso, y son estos 
+L M M J V     D-LOKOS. 12 A 14 
+L V  PICK AND ROLL. 19 A 20 
+M  SEGONA JUGADA  19 A 20
+M  ESTO FUTBOL PAPA 14 A 15
+J    DESDE LA CANTERA 19 A 20 
+J  RINCON DEL NEGRO 14 A 15
+V   SPRINT 14 A 15
+
+y los logos estan aqui C:\Users\xena\Desktop\SYNTALYS\syntalys-clientes\RadioMarca\logos\programas (el de level up debe salir como cooming soon)
+
+
+
+En tv: Lo de youtube que te explico abajo, con directos o emisiones pasadas etc
+
+
+
+En contacto: la info correspondiente y tal, y formulario de contacto , que habran varios en verdad: atencion a los clientes direccion@rmarcabaleares.com  con telefono 620019894
+venta / marketing comercial@rmarcabaleares.com
+
+y telefono +34 617 02 04 92
+
+
+
+
+
+Otros datos a tener en cuenta o info, para contacto o para terminos y condiciones o pa lo que sea: 
+
+mail para disclaimer : direccion@rmarcabaleares.com
+=========
+Detalles clave sobre XELAGROUP SL:
+
+    Ubicación: Carretera Valldemossa S/n KM 7.4. 07010, Palma De Mallorca (Illes Balears).
+
+
+
+RADIO MARCA BALEARES — YOUTUBE INTEGRACIÓN
+
+Channel ID:
+
+UCHSx3wCUhrasDqMq17MrD6w
+
+PLAYER — EMISIÓN EN DIRECTO
+
+Usar siempre este embed para mostrar la emisión actual:
+
+https://www.youtube.com/embed/live_stream?channel=UCHSx3wCUhrasDqMq17MrD6w
+
+
+
+EMISIONES PASADAS — LISTADO AUTOMÁTICO
+
+Para mostrar todos los programas grabados del canal:
+
+https://www.youtube.com/embed?listType=user_uploads&list=UCHSx3wCUhrasDqMq17MrD6w
+
+
+PÁGINA TV (recomendado)
+
+Arriba:
+
+player live_stream
+
+Debajo:
+
+grid emisiones pasadas (uploads)
+
+
+
+Aqui tienes una screenshot de la web antigua pa que veas colores etc y como estaba C:\Users\xena\Desktop\SYNTALYS\syntalys-clientes\RadioMarca\assets\web-antigua-screenshot
+
+
+
+-------
+
+Lo de arriba pero mejor explicado:
+
+# RADIO MARCA BALEARES — ESPECIFICACIÓN WEB (ordenada)
+
+## 0) Menú principal
+
+Nav Links:
+
+1. Inicio
+2. Noticias
+3. Programas
+4. TV
+5. Contacto
+
+Header global:
+
+* Logo centrado arriba
+* Debajo, nav links con iconos “chulos” (iconos tipo SVG, no emojis)
+
+---
+
+## 1) Página: Inicio
+
+### 1.1 Cabecera
+
+* Logo Radio Marca Baleares centrado
+* Debajo la navegación con iconos
+
+### 1.2 Bloque: Emisión actual (Radio Marca Baleares)
+
+Objetivo: mostrar lo que está sonando/emitiéndose ahora.
+
+Contenido del bloque:
+
+* Player del directo (YouTube)
+* Controles: play/pause y volumen
+* Composición visual:
+
+  * Logo del programa actual a la izquierda
+  * Logo Radio Marca Baleares a la derecha (o al lado del player)
+* Debajo del bloque: zona para “siguientes programas” (anunciar próximos)
+
+Logos de programas:
+
+* Ubicación local (tu proyecto):
+  `C:\Users\xena\Desktop\SYNTALYS\syntalys-clientes\RadioMarca\logos\programas`
+* Se usan para:
+
+  * Programa actual
+  * Próximos programas
+* “Level Up” debe mostrarse como “coming soon”
+
+### 1.3 Bloque: Noticias destacadas (layout tipo bento)
+
+Distribución (medidas de referencia):
+
+* Columna izquierda: 1 bloque grande 512x512
+* Columna derecha:
+
+  * Arriba: 1 bloque horizontal 800x500 aprox.
+  * Debajo: 2 bloques pequeños 256x256 aprox.
+
+Uso:
+
+* Estas tarjetas son “noticias destacadas”
+
+Estilo visual de cada tarjeta:
+
+* Imagen como fondo
+* Overlay negro oscuro para que el texto blanco se lea bien
+* Título dentro de un recuadro rojo con texto blanco
+
+### 1.4 Bloque: Banner corporativo (debajo del bento)
+
+Requisitos del banner:
+
+* Banner creado con código (CSS)
+* Decoración:
+
+  * En una esquina: franja roja
+  * En la esquina opuesta: franja azul (inversa)
+* En el centro: logo horizontal de Radio Marca Baleares
+
+### 1.5 Bloque: Resto de noticias (debajo del banner)
+
+* Listado de noticias en grid
+* Orden: de la más reciente a la más antigua
+* Tarjetas cuadradas (referencia 256x256)
+* Mismo estilo: imagen de fondo + overlay + texto
+
+### 1.6 Publicidad lateral (en toda la página)
+
+* A la izquierda del contenido: columna vertical para anuncios
+* A la derecha del contenido: columna vertical para anuncios
+* Estos anuncios los sube el publicista desde el panel admin
+
+---
+
+## 2) Página: Noticias
+
+Objetivo: ver todas las noticias.
+
+Contenido:
+
+* Listado completo de noticias
+* Incluye destacadas (si aplica)
+* Misma estética de tarjetas (imagen + overlay + título en rojo)
+* Orden cronológico (recientes primero)
+
+---
+
+## 3) Página: Programas
+
+Objetivo: mostrar la parrilla/horarios de programas.
+
+Datos de parrilla (tal cual):
+
+* L M M J V — D-LOKOS — 12 a 14
+* L V — PICK AND ROLL — 19 a 20
+* M — SEGONA JUGADA — 19 a 20
+* M — ESTO FUTBOL PAPA — 14 a 15
+* J — DESDE LA CANTERA — 19 a 20
+* J — RINCON DEL NEGRO — 14 a 15
+* V — SPRINT — 14 a 15
+
+Logos:
+
+* Carpeta:
+  `C:\Users\xena\Desktop\SYNTALYS\syntalys-clientes\RadioMarca\logos\programas`
+* Nota:
+
+  * “Level Up” aparece como “coming soon”
+
+---
+
+## 4) Página: TV
+
+Objetivo: integrar YouTube para directos y emisiones pasadas.
+
+Estructura recomendada:
+
+1. Arriba: player del directo
+2. Debajo: grid/listado de emisiones pasadas
+
+---
+
+## 5) Página: Contacto
+
+Objetivo: información + formularios de contacto.
+
+Debe incluir:
+
+* Información de empresa (para contacto/legales)
+* Formularios (varios destinos):
+
+Canales de contacto:
+
+1. Atención al cliente
+
+* Email: [direccion@rmarcabaleares.com](mailto:direccion@rmarcabaleares.com)
+* Teléfono: 620019894
+
+2. Venta / Marketing
+
+* Email: [comercial@rmarcabaleares.com](mailto:comercial@rmarcabaleares.com)
+* Teléfono: +34 617 02 04 92
+
+Otros datos (para legal/disclaimer):
+
+* Email disclaimer: [direccion@rmarcabaleares.com](mailto:direccion@rmarcabaleares.com)
+
+Datos empresa:
+
+* XELAGROUP SL
+* Carretera Valldemossa S/n KM 7.4
+* 07010 Palma De Mallorca (Illes Balears)
+
+---
+
+## 6) Panel Admin (gestión de contenidos y anuncios)
+
+### 6.1 Roles obligatorios
+
+* Superadmin (o Admin/Superadmin)
+* Copywriters
+* Publicistas
+
+### 6.2 Gestión de noticias (Copywriters)
+
+Requisitos:
+
+* Subida de imágenes con indicación previa de tamaños requeridos (px por px) para encajar en el bento.
+* Ideal: representación tipo maqueta de la home en el panel para que el copywriter:
+
+  * seleccione el “slot” del bento (por ejemplo: 512x512, 800x500, 256x256)
+  * y dentro de ese slot suba imagen + escriba contenido
+
+Contenido que deben poder añadir:
+
+* Imagen principal (con validación del tamaño según slot)
+* Texto
+* Links
+* Más fotos
+* Más vídeos
+
+Regla de “favorito”:
+
+* Marcar una noticia como “favorita” hace que se coloque en el bloque grande 512x512 del bento.
+
+### 6.3 Gestión de publicidad (Publicistas)
+
+Requisitos:
+
+* Subir creatividades para los laterales (bloques verticales)
+* Gestionar qué anuncio aparece (al menos subir y mostrar en su zona)
+
+---
+
+## 7) Integración YouTube (datos exactos)
+
+YouTube Channel ID:
+
+* `UCHSx3wCUhrasDqMq17MrD6w`
+
+### 7.1 Player emisión en directo (embed fijo)
+
+Usar este embed para la emisión actual:
+
+* `https://www.youtube.com/embed/live_stream?channel=UCHSx3wCUhrasDqMq17MrD6w`
+
+### 7.2 Emisiones pasadas (embed automático)
+
+Para mostrar programas grabados:
+
+* `https://www.youtube.com/embed?listType=user_uploads&list=UCHSx3wCUhrasDqMq17MrD6w`
+
+### 7.3 Página TV (resumen)
+
+* Arriba: embed de live_stream
+* Debajo: embed/listado de uploads
+
+---
+
+## 8) Referencia visual (web antigua)
+
+Tienes una screenshot de referencia para colores y estilo general:
+
+* `C:\Users\xena\Desktop\SYNTALYS\syntalys-clientes\RadioMarca\assets\web-antigua-screenshot`
+
+Nota:
+
+* Esa captura se usa como guía visual (colores, look & feel), sin cambiar los requisitos funcionales de arriba.
+
+---
+
